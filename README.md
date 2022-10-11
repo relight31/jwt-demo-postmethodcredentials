@@ -19,7 +19,7 @@ Demo Spring backend using Spring security to do 3 things:
     
     `openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out private.pem`
 
- 2. Add the following lines to application.properties (in addition to your spring datasource
+ 2. Add the following lines to application.properties (in addition to your spring datasource)
 
 `rsa.private-key=classpath:certs/private.pem`
 
